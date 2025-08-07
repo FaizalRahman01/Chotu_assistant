@@ -70,9 +70,9 @@ Chotu: Tells current time in Hindi/English
 ```
 
 ##  System Architecture
+![Screenshot](Images/Screenshot%202025-08-07%20153556.png)
 
 ```
-![Screenshot](Images/Screenshot%202025-08-07%20153556.png)
 
 (A detailed system architecture diagram showing the flow from 
 voice input to command execution through various processing layers)
