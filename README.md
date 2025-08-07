@@ -1,33 +1,33 @@
-# Chotu - Advanced Voice Assistant 🤖
+# Chotu - Advanced Voice Assistant 
 
 Chotu is an intelligent voice assistant built in Python that can perform various tasks through voice commands. It can search YouTube for songs, control applications, send messages, and much more! This project demonstrates advanced speech recognition, natural language processing, and system automation capabilities.
 
-## 🎯 Project Overview
+##  Project Overview
 
 Chotu is designed to be your personal digital assistant that understands both Hindi and English commands. With its advanced contextual understanding and smart automation features, it can help you navigate your computer, control applications, play music, send messages, and perform various system operations - all through simple voice commands.
 
-## ✨ Key Features
+##  Key Features
 
-### 🎤 **Advanced Voice Recognition**
+###  **Advanced Voice Recognition**
 - Real-time speech-to-text conversion using Google Speech Recognition
 - Support for both Hindi and English commands
 - Noise cancellation and ambient sound adjustment
 - Custom voice response with adjustable speed and volume
 
-### 🎵 **Smart Music & Entertainment**
+###  **Smart Music & Entertainment**
 - YouTube integration with contextual search
 - YouTube Music support
 - Play, pause, resume, and skip songs with voice commands
 - Smart song search using artist names and song titles
 - Volume control through voice commands
 
-### 💬 **Communication Features**
+###  **Communication Features**
 - WhatsApp desktop integration for sending messages
 - Telegram desktop integration for chat management
 - Voice-to-text message composition
 - Contact search and chat opening
 
-### 🖥️ **System Control & Automation**
+###  **System Control & Automation**
 - Open any installed application through voice commands
 - System information retrieval
 - File management operations (select all, delete, etc.)
@@ -35,19 +35,19 @@ Chotu is designed to be your personal digital assistant that understands both Hi
 - Desktop navigation and window management
 - Internet connectivity checking
 
-### 🌐 **Web Integration**
+###  **Web Integration**
 - Google search with voice queries
 - Website opening and navigation
 - Context-aware search functionality
 - URL handling and web automation
 
-### 🧠 **Intelligent Context Management**
+###  **Intelligent Context Management**
 - Remembers current application context
 - Contextual command processing
 - Smart query interpretation
 - Multi-step task execution
 
-## 🎵 Example Usage Scenarios
+##  Example Usage Scenarios
 
 ```
 User: "Open YouTube"
@@ -69,10 +69,10 @@ User: "Time kya hai?"
 Chotu: Tells current time in Hindi/English
 ```
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
-📊 Insert Architecture Diagram Here 📊
+ Insert Architecture Diagram Here 
 (A detailed system architecture diagram showing the flow from 
 voice input to command execution through various processing layers)
 ```
@@ -85,7 +85,7 @@ voice input to command execution through various processing layers)
 5. **Integration Layer** - Interfaces with external applications and APIs
 6. **System Control** - Manages system-level operations and automation
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -122,7 +122,7 @@ voice input to command execution through various processing layers)
 - Install Microsoft Visual C++ Redistributable if needed
 - Configure default microphone in system settings
 
-## 🚀 How to Run
+## How to Run
 
 ### Basic Usage
 ```bash
@@ -161,48 +161,48 @@ python chotu.py --voice-rate 180 --volume 0.8
 - "System info" - Shows system information
 - "Internet check karo" - Checks connectivity
 
-## 📋 Detailed Feature Documentation
+##  Detailed Feature Documentation
 
-### 🎤 Voice Recognition Engine
+###  Voice Recognition Engine
 The voice recognition system uses Google's Speech Recognition API with the following features:
 - **Language Support**: English (en-IN) with Hindi word recognition
 - **Timeout Handling**: 4-second listening timeout with 5-second phrase limit
 - **Error Recovery**: Automatic retry on recognition failures
 - **Noise Adjustment**: Dynamic ambient noise calibration
 
-### 🎵 Music Integration
+###  Music Integration
 - **YouTube Search**: Uses `youtubesearchpython` for accurate results
 - **Playlist Management**: Maintains search results for song navigation
 - **Context Awareness**: Remembers current music platform
 - **Multi-platform Support**: YouTube and YouTube Music integration
 
-### 💬 Messaging System
+###  Messaging System
 - **WhatsApp Integration**: Direct desktop app control using `pywhatkit`
 - **Contact Management**: Voice-based contact search and selection
 - **Message Composition**: Voice-to-text message creation
 - **Auto-sending**: Instant message delivery with confirmation
 
-### 🖥️ System Automation
+###  System Automation
 - **Application Launcher**: Universal app opening using Windows search
 - **File Operations**: Bulk file selection, deletion, and management
 - **System Controls**: Volume, screen navigation, window management
 - **Process Automation**: Multi-step task execution with GUI automation
 
-## ⚠️ Important Notes & Warnings
+##  Important Notes & Warnings
 
-### 🔐 Security Considerations
+###  Security Considerations
 - **GUI Control**: Uses `pyautogui` which can control mouse & keyboard
 - **Sensitive Operations**: Avoid running during password entry or financial transactions
 - **Permission Requirements**: Requires microphone and system control permissions
 - **Network Access**: Makes internet requests for speech recognition and searches
 
-### 📱 Application Requirements
+###  Application Requirements
 - **WhatsApp**: Requires WhatsApp Desktop to be installed and logged in
 - **Telegram**: Requires Telegram Desktop for full functionality
 - **Web Browser**: Default browser should be configured for web operations
 - **Audio System**: Requires working microphone and audio output
 
-## 🔧 Configuration & Customization
+##  Configuration & Customization
 
 ### Voice Settings
 ```python
@@ -228,9 +228,9 @@ elif "your custom command" in query:
     speak("Custom action performed")
 ```
 
-## 🚀 Future Improvements & Roadmap
+##  Future Improvements & Roadmap
 
-### 🎯 Planned Features
+###  Planned Features
 - **GUI Interface**: Modern desktop application using Tkinter/PyQt
 - **Email Integration**: Voice-controlled email composition and sending
 - **Weather API**: Real-time weather information and forecasts
@@ -238,7 +238,7 @@ elif "your custom command" in query:
 - **Smart Home Control**: IoT device integration and control
 - **Calendar Management**: Schedule management and reminders
 
-### 🤖 AI Enhancements
+###  AI Enhancements
 - **Wake Word Detection**: "Hey Chotu" activation phrase
 - **Conversation Memory**: Context retention across sessions
 - **Learning Capabilities**: Personalized response improvement
@@ -252,58 +252,58 @@ elif "your custom command" in query:
 - **Mobile App**: Companion mobile application for remote control
 - **API Development**: REST API for external integrations
 
-## 👨‍💻 Author & Development Team
+##  Author & Development Team
 
 **Faizal Rahman**
-- 🎓 Cybersecurity Student & AI Enthusiast
-- 💻 Python & Flask Developer
-- 🌐 Full-Stack Web Developer
-- 📍 Based in India
-- 🚀 Passionate about Voice AI and Automation
+-  Cybersecurity Student & AI Enthusiast
+-  Python & Flask Developer
+-  Full-Stack Web Developer
+-  Based in India
+-  Passionate about Voice AI and Automation
 
 ### Connect with the Developer
-- GitHub: [FaizalRahman01]([https://github.com/faizalrahman](https://github.com/FaizalRahman01))
-- LinkedIn: [Faizal Rahman]([https://linkedin.com/in/faizalrahman](https://www.linkedin.com/in/faizal-rahman-68275a260/))
+- GitHub: [FaizalRahman01]([https://github.com/faizalrahman](https://github.com/FaizalRahman01)
+- LinkedIn: [Faizal Rahman]([https://linkedin.com/in/faizalrahman](https://www.linkedin.com/in/faizal-rahman-68275a260/)
 - Email: [faizalrahman7834@gmail.co](mailto:faizalrahman7834@gmail.com)
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions from the community! Here's how you can help:
 
-### 🐛 Bug Reports
+###  Bug Reports
 - Report bugs through GitHub Issues
 - Provide detailed reproduction steps
 - Include system information and error logs
 
-### ✨ Feature Requests
+###  Feature Requests
 - Suggest new voice commands
 - Propose integration ideas
 - Share use case scenarios
 
-### 💻 Code Contributions
+###  Code Contributions
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes with proper documentation
 4. Submit a pull request with detailed description
 
-## 📜 License & Legal
+## License & Legal
 
 This project is intended for **educational and personal use** only.
 
-### 📋 Terms of Use
+###  Terms of Use
 - ✅ Personal and educational use allowed
 - ✅ Modification and customization permitted
 - ✅ Non-commercial distribution allowed
 - ❌ Commercial use requires explicit permission
 - ❌ Warranty and liability disclaimers apply
 
-### 🔒 Privacy Notice
+###  Privacy Notice
 - Voice data is processed locally when possible
 - Internet-based recognition uses Google's API
 - No personal data is stored or transmitted unnecessarily
 - Users are responsible for their own data security
 
-## 🎉 Acknowledgments
+##  Acknowledgments
 
 Special thanks to the open-source community and the following libraries:
 - **pyttsx3** - Text-to-Speech conversion
@@ -314,7 +314,7 @@ Special thanks to the open-source community and the following libraries:
 
 ---
 
-### 🚀 Ready to Get Started?
+###  Ready to Get Started?
 
 ```bash
 git clone https://github.com/yourusername/chotu-voice-assistant.git
@@ -323,4 +323,4 @@ pip install -r requirements.txt
 python chotu.py
 ```
 
-**Say "Hello Chotu" and start your voice-controlled computing experience!** 🎤✨
+**Say "Hello Chotu" and start your voice-controlled computing experience!** 
